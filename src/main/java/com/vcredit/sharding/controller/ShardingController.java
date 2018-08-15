@@ -2,8 +2,8 @@ package com.vcredit.sharding.controller;
 
 import com.vcredit.sharding.model.Order;
 import com.vcredit.sharding.model.OrderItem;
-import com.vcredit.sharding.sharding.OrderItemMapper;
-import com.vcredit.sharding.sharding.OrderMapper;
+import com.vcredit.sharding.mapper.OrderItemMapper;
+import com.vcredit.sharding.mapper.OrderMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;

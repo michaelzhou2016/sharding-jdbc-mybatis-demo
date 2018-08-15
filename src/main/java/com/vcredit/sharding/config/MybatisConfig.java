@@ -21,7 +21,7 @@ import javax.sql.DataSource;
  */
 @Configuration
 @EnableTransactionManagement
-@MapperScan(basePackages = "com.vcredit.sharding.sharding", sqlSessionTemplateRef = "shardSqlSessionTemplate")
+@MapperScan(basePackages = "com.vcredit.sharding.mapper", sqlSessionTemplateRef = "shardSqlSessionTemplate")
 public class MybatisConfig {
     @Bean(name = "shardSqlSessionFactory")
     public SqlSessionFactory shardSqlSessionFactory(@Qualifier("shardingDataSource") DataSource dataSource) throws Exception {

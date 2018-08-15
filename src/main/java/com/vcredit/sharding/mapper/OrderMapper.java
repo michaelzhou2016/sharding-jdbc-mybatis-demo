@@ -1,4 +1,4 @@
-package com.vcredit.sharding.sharding;
+package com.vcredit.sharding.mapper;
 
 import com.vcredit.sharding.model.Order;
 import org.apache.ibatis.annotations.Mapper;
