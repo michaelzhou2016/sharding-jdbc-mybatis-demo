@@ -5,7 +5,7 @@ spring:
         jdbc-url: jdbc:mysql://localhost:3306/ds_0
         driver-class-name: org.mariadb.jdbc.Driver
         username: root
-        password: think@2018
+        password: root
         minimum-idle: 10
         maximum-pool-size: 200
         pool-name: DS0HikariCP
@@ -19,7 +19,7 @@ spring:
         jdbc-url: jdbc:mysql://localhost:3306/ds_1
         driver-class-name: org.mariadb.jdbc.Driver
         username: root
-        password: think@2018
+        password: root
         minimum-idle: 10
         maximum-pool-size: 200
         pool-name: DS1HikariCP
